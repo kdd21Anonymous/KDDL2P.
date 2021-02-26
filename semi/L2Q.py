@@ -72,10 +72,10 @@ print('dataset: %s' % args.dataset)
 
 import json
 
-try:
-    config = json.load(open("config/%s_%s.json" % (args.dataset, args.taskType), 'r'))
-except:
-    config = json.load(open("config/%s_%s.json" % (args.dataset.lower(), args.taskType), 'r'))
+#try:
+ #   config = json.load(open("config/%s_%s.json" % (args.dataset, args.taskType), 'r'))
+#except:
+ #   config = json.load(open("config/%s_%s.json" % (args.dataset.lower(), args.taskType), 'r'))
 # # for i in ['full','semi']:
 # #     for j in ['cora', 'PubMed', 'CiteSeer']:
 # #         print("config/%s_%s.json"%(j,i))

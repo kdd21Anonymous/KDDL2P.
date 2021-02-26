@@ -71,8 +71,8 @@ print('dataset: %s' % args.dataset)
 
 import json
 
-config = json.load(open("config/%s_%s.json" % (args.dataset, args.taskType), 'r'))
-[args.H0alpha, args.entropy, args.alpha, args.weight_decay, args.hidden, args.dropout] = list(config.values())
+#config = json.load(open("config/%s_%s.json" % (args.dataset, args.taskType), 'r'))
+#[args.H0alpha, args.entropy, args.alpha, args.weight_decay, args.hidden, args.dropout] = list(config.values())
 # [_,args.entropy,args.alpha,args.weight_decay, args.hidden, args.dropout] = list(config.values())
 
 # args.weight_decay = 1e-2
